@@ -10,10 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "get-youtube-title": "^1.0.0",
-    "lunr": "^2.3.6",
-    "node-telegram-bot-api": "^0.30.0",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.4",
-    "telegraf": "^3.27.1"
+    "telegraf": "^3.27.1",
+    "ytdl-getinfo": "^1.1.0"
   }
 }

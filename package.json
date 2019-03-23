@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "get-youtube-title": "^1.0.0",
+    "node-fetch": "^2.3.0",
     "telegraf": "^3.27.1",
     "ytdl-getinfo": "^1.1.0"
   }

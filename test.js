@@ -1,6 +1,11 @@
-const { getInfo } = require('ytdl-getinfo')
+const fs = require('fs');
 
-getInfo('shorturl.at/gGOWY').then(info => {
-  // info.items[0] should contain the output of youtube-dl --dump-json
-  console.log(info.items[0].title)
-})
+const localStorage = JSON.parse(fs.readFileSync('./local_storage'));
+
+console.log(typeof localStorage);
+
+localStorage.name = "trungkien";
+
+console.log(JSON.stringify(localStorage));
+
+fs.writeFileSync('./local_storage', JSON.stringify(localStorage));
